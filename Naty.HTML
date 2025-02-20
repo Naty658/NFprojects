@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+	    padding: 0; /* Add this to reset padding */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            position: relative;
+	    background: linear-gradient(135deg, #fffbe5, #fffbe5);
+
+	    /*background: linear-gradient(135deg, #fff5f5, #fff5f5); /* more like pink background */
+
+
+        }
+        h1, h2 {
+            margin: 10px 0;
+        }
+        h1 {
+	     margin-top: -50px;
+
+	     background: linear-gradient(to right, #005eb8, #003580);
+	     -webkit-background-clip: text;
+             color: transparent;
+	      margin-left: -900px; /* Adjust this value as needed */
+     
+	     /* background: linear-gradient(to right, red, yellow, green, blue);   this helps to add background to certain word */
+	    
+            /*align-self: flex-start; Align only h1 to the left */
+	/* background: linear-gradient(to right, red, yellow, green, blue);
+-webkit-background-clip: text;
+color: transparent;   to change the color of the words with mixed color  */
+
+        }
+	h2 {
+		margin-left: -900px;
+		background: linear-gradient(to right, #005eb8, #003580);
+	     -webkit-background-clip: text;
+             color: transparent;
+
+	}
+        .projects {
+            margin-top: 20px; 		
+	
+        }
+        .project {
+	    background: linear-gradient(to right, #cc0000, #800000);
+           -webkit-background-clip: text;
+           color: transparent;
+
+            margin: 10px 0;
+	    margin-left: -350px;
+        }
+      
+.project p {
+    margin-left: -150px; /* Match the title's left alignment */
+    max-width: 600px; /* Optional: Adjust for readability */
+    text-align: left; /* Align text properly */
+    color: black; /* Make sure text is visible */
+    text-indent: 20px; /* Indent first line slightly */
+
+}
+
+        .logo {
+	    width: 400px;
+    	    height: 350px;
+            margin-bottom: 2px;
+            margin-top: 0px; /* to control distance gap from the top of the screen to the logo*/
+/* left: 10px;  to control how much left */
+        }
+    </style>
+</head>
+<body>
+    <img src="logo.png" alt="Logo" class="logo">
+    <h1>Natnael Feleke</h1>
+    <h2>Personal Projects </h2>
+    <div class="projects">
+        <div class="project">
+            <h3>1. QT Creator Buffer Overflow Detection PC Software</h3>
+	    <p> As a senior class project, I developed a c++ buffer overflow detection tool with my team. The tool was developed on Qt creator tool, and was created to detect buffer overflow mainly from c++ and c codes. As the logic of the code we used regex or regular expression algorithm by defining the tools. <p>
+             <a href="QT.html" target="_blank">Learn More</a>   <!-- to go to the next screen -->
+
+        </div>
+        <div class="project">
+            <h3>2. Android Trading App Using React Native and Node.js</h3>
+            <p> As a personal project to learn react native and node js, I created a trading app for android, I used vs code to edit the code and cmd to run the code. I used emulator of android studio or my android phone to test the app, it is still in progress, but I created the 80% of the app and allow users to list and also browse them. <p>
+	<a href="Trading.html" target="_blank">Learn More</a>
+	     
+        </div>
+    </div>
+</body>
+</html>
